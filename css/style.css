@@ -1,10 +1,8 @@
 body {
     margin: 0;
     margin-top: 50px;
-    font-family: sans-serif;
-
+    font-family: 'Karla', sans-serif;
 }
-
 header {
     display: flex;
     position: fixed;
@@ -14,6 +12,7 @@ header {
     height: 50px;
     line-height: 50px;
     background-color: #eeeeee;
+    align-items: center;
 }
 
 header * {
@@ -25,12 +24,38 @@ header ul {
     padding: 0;
 }
 
-header li {
-    margin-left: 20px;
+/*header li {
+  margin: 20px;      <<<<<<<<Put this back if everything below to comments fucks up. 
+}*/
+
+nav {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
 }
 
+nav a {
+    
+    float: left;
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: px;
+    width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+}
 
-section {
+/* adds a color on hover on the nav menu */
+nav a:hover{
+    background-color: grey;
+  }
+  
+
+
+
+
+
+ section {
     height: 100vh;
     border: 1px solid black;
     display: flex;
@@ -69,7 +94,9 @@ section h3 {
 header a {
 
     text-decoration: none;
-    color: black
+    color: white;
+    background-color: slategrey;
+    font-family: 'Karla', sans-serif;
 }
 
 #hero {
