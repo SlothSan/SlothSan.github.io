@@ -110,6 +110,16 @@ header a {
 }
 
 #contact {
-    
+
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../src/images/contact.jpg');
 }
+
+/* Set the Icons used for Social links to be rounded */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
